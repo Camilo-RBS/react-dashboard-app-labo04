@@ -45,4 +45,32 @@ export const routesConfig: Record<RoutesEnum, RouteConfig> = {
     title: 'Permisos',
     search: true,
   },
+  [RoutesEnum.CINE]: {
+    auth: true,
+    roles: ['*'],
+    permission: ['*'],
+    title: 'Cine',
+    search: false,
+  },
+  [RoutesEnum.CINE_CATALOGO]: {
+    auth: true,
+    roles: ['*'],
+    permission: ['*'],
+    title: 'Catálogo de Funciones',
+    search: true,
+  },
+  [RoutesEnum.CINE_PELICULAS]: {
+    auth: true,
+    roles: ['*'],
+    permission: ['*'],
+    title: 'Películas',
+    search: true,
+  },
+  [RoutesEnum.CINE_SALAS]: {
+    auth: true,
+    roles: ['*'],
+    permission: ['*'],
+    title: 'Salas',
+    search: true,
+  },
 } as const

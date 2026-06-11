@@ -16,4 +16,8 @@ export const queryKeys = {
   users: ['users'],
   roles: ['roles'],
   permissions: ['permissions'],
+  movies: ['movies'],
+  halls: ['halls'],
+  cineFunctions: ['cineFunctions'],
+  reservations: ['reservations'],
 }
